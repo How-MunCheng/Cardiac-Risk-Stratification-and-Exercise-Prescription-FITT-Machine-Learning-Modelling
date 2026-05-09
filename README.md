@@ -6,12 +6,11 @@ This repository contains machine learning pipelines for:
 - Exercise prescription (FITT) prediction - Frequency, Intensity, Time, Type
 
 ## Components
-- Data preprocessing
-- Feature selection
+- Data preprocessing and feature selection
 - Machine learning modelling
-- Benchmark comparison
+- Benchmark modelling
 - Features selected analysis
-- Final prediction generation
+- Predicted risk level generation
 
 ## Models Used
 - Conventional models
