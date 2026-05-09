@@ -22,6 +22,8 @@ Please run the code files in the following order:
 03_benchmarking
 ├── 01_data_preprocessing_and_feature_selection
 └── 02_machine_learning_modelling
+
+```text
    
 ## Components
 - Data preprocessing and feature selection
