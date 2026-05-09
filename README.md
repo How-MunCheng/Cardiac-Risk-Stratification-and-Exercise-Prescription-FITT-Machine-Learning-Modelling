@@ -6,19 +6,23 @@ This repository contains machine learning pipelines for:
 - Exercise prescription (FITT) prediction - Frequency, Intensity, Time, Type
 
 ## File execution order
--Please run the code file in order:
--01_risk_stratification 
--├──  01_data_preprocessing_and_feature selection
--├──  02_machine_learning_modelling 
--└──  03_generate_predicted risk
 
--02_exercise_prescription(FITT)
--├──   01_data_preprocessing_and_feature selection
--└──   02_machine_learning_modelling
+Please run the code files in the following order:
 
--03_benchmarking
--├──   01_data_preprocessing_and_feature selection
--└──   02_machine_learning_modelling
+### 01_risk_stratification
+```text
+01_risk_stratification
+├── 01_data_preprocessing_and_feature_selection
+├── 02_machine_learning_modelling
+└── 03_generate_predicted_risk
+
+02_exercise_prescription_(FITT)
+├── 01_data_preprocessing_and_feature_selection
+└── 02_machine_learning_modelling
+
+03_benchmarking
+├── 01_data_preprocessing_and_feature_selection
+└── 02_machine_learning_modelling
    
 ## Components
 - Data preprocessing and feature selection
