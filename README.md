@@ -9,22 +9,28 @@ This repository contains machine learning pipelines for:
 
 Please run the code files in the following order:
 
+### 01_risk_stratification
 ```text
 01_risk_stratification
 ├── 01_data_preprocessing_and_feature_selection
 ├── 02_machine_learning_modelling
 └── 03_generate_predicted_risk
+```
 
+### 02_exercise_prescription_(FITT)
+```text
 02_exercise_prescription_(FITT)
 ├── 01_data_preprocessing_and_feature_selection
 └── 02_machine_learning_modelling
+```
 
+### 03_benchmarking
+```text
 03_benchmarking
 ├── 01_data_preprocessing_and_feature_selection
 └── 02_machine_learning_modelling
+```
 
-```text
-   
 ## Components
 - Data preprocessing and feature selection
 - Machine learning modelling
